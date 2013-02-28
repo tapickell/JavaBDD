@@ -14,12 +14,12 @@ Scenario: Invalid Payee
 	Given the user is on Fund Transfer Page
 	When he enters "Jack" as payee name
 	And he enters "100" as amount
-	And he Submits rquest for Fund Transfer
-	then ensure a transaction failure message "Transfer failed!! 'Jack' is not registered in your List of Payees" is displayed
+	And he Submits request for Fund Transfer
+	Then ensure a transaction failure message "Transfer failed!! 'Jack' is not registered in your List of Payees" is displayed
 	
 Scenario: Account is overdrawn past the overdraft limit
-	Given the user is on the Fund Transfer Page
-	When he enteres "Tim" as payee name
+	Given the user is on Fund Transfer Page
+	When he enters "Tim" as payee name
 	And he enters "10000000" as amount
 	And he Submits request for Fund Transfer
 	Then ensure a transaction failure message "Transfer failed!! account cannot be overdrawn" is displayed  

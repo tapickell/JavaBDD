@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="2" time="30.15" errors="0" skipped="8" tests="18" name="fundtransfer.test.RunCukesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.14-b01-445"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4107"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/toddpickell/Documents/Development Stuff/JavaBDD/FundTransfer"/>
+    <property name="java.runtime.version" value="1.6.0_41-b02-445-11M4107"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/g1/9f3439ms34v2gmvw5pgn45jh0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Volumes/XtrnlDrive/Desktop/Lynda/JavaLynda/Ex_Files_Java_EssT 2/Exercise Files/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf4274790390452428246.tmp"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/toddpickell"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="toddpickell"/>
+    <property name="java.class.path" value="/Applications/eclipse 2/configuration/org.eclipse.osgi/bundles/1130/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_41"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/Users/toddpickell/Documents/Development Stuff/JavaBDD/FundTransfer/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_41-445"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.002" classname="Given the user is on Fund Transfer Page   " name="Given the user is on Fund Transfer Page   "/>
+  <testcase time="0" classname="When he enters \&quot;Jim\&quot; as payee name    " name="When he enters \&quot;Jim\&quot; as payee name    "/>
+  <testcase time="0" classname="And he enters \&quot;100\&quot; as amount     " name="And he enters \&quot;100\&quot; as amount     "/>
+  <testcase time="0" classname="And he Submits request for Fund Transfer      " name="And he Submits request for Fund Transfer      "/>
+  <testcase time="0.003" classname="Then ensure the fund transfer is complete with \&quot;$100 transferred successfully to Jim!\&quot; message       " name="Then ensure the fund transfer is complete with \&quot;$100 transferred successfully to Jim!\&quot; message       ">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="Scenario: Valid Payee  " name="Scenario: Valid Payee  ">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="Given the user is on Fund Transfer Page         " name="Given the user is on Fund Transfer Page         "/>
+  <testcase time="0" classname="When he enters \&quot;Jack\&quot; as payee name          " name="When he enters \&quot;Jack\&quot; as payee name          "/>
+  <testcase time="0" classname="And he enters \&quot;100\&quot; as amount           " name="And he enters \&quot;100\&quot; as amount           "/>
+  <testcase time="0" classname="And he Submits request for Fund Transfer            " name="And he Submits request for Fund Transfer            "/>
+  <testcase time="0.014" classname="Then ensure a transaction failure message \&quot;Transfer failed!! \&apos;Jack\&apos; is not registered in your List of Payees\&quot; is displayed             " name="Then ensure a transaction failure message \&quot;Transfer failed!! \&apos;Jack\&apos; is not registered in your List of Payees\&quot; is displayed             ">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at fundtransfer.test.FundTransferStepDefs.Ensure_a_transaction_failure_message(FundTransferStepDefs.java:50)
+	at ✽.Then ensure a transaction failure message &quot;Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees&quot; is displayed(fundtransfer/test/fundtransfer.feature:18)
+</failure>
+    <system-out>&amp;#27;[1A    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mhe Submits request for Fund Transfer&amp;#27;[0m                                                                                   &amp;#27;[90m# FundTransferStepDefs.He_submits_request_for_fund_transfer()&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mensure a transaction failure message &quot;&amp;#27;[0m&amp;#27;[90m&amp;#27;[1mTransfer failed!! &apos;Jack&apos; is not registered in your List of Payees&amp;#27;[0m&amp;#27;[90m&quot; is displayed&amp;#27;[0m &amp;#27;[90m# FundTransferStepDefs.Ensure_a_transaction_failure_message(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.014" classname="Scenario: Invalid Payee        " name="Scenario: Invalid Payee        ">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at fundtransfer.test.FundTransferStepDefs.Ensure_a_transaction_failure_message(FundTransferStepDefs.java:50)
+	at ✽.Then ensure a transaction failure message &quot;Transfer failed!! &apos;Jack&apos; is not registered in your List of Payees&quot; is displayed(fundtransfer/test/fundtransfer.feature:18)
+</failure>
+  </testcase>
+  <testcase time="3.984" classname="Given the user is on the Fund Transfer Page               " name="Given the user is on the Fund Transfer Page               ">
+    <skipped/>
+  </testcase>
+  <testcase time="4.005" classname="When he enters \&quot;Tim\&quot; as payee name                " name="When he enters \&quot;Tim\&quot; as payee name                ">
+    <skipped/>
+  </testcase>
+  <testcase time="4.006" classname="And he enters \&quot;10000000\&quot; as amount                 " name="And he enters \&quot;10000000\&quot; as amount                 ">
+    <skipped/>
+  </testcase>
+  <testcase time="4.01" classname="And he Submits request for Fund Transfer                  " name="And he Submits request for Fund Transfer                  ">
+    <skipped/>
+  </testcase>
+  <testcase time="4.012" classname="Then ensure a transaction failure message \&quot;Transfer failed!! account cannot be overdrawn\&quot; is displayed                   " name="Then ensure a transaction failure message \&quot;Transfer failed!! account cannot be overdrawn\&quot; is displayed                   ">
+    <skipped/>
+  </testcase>
+  <testcase time="4.013" classname="Scenario: Account is overdrawn past the overdraft limit              " name="Scenario: Account is overdrawn past the overdraft limit              ">
+    <skipped/>
+  </testcase>
+</testsuite>

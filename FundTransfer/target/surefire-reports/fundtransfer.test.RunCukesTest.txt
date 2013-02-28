@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: fundtransfer.test.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 30.15 sec <<< FAILURE!
+Then ensure a transaction failure message \"Transfer failed!! \'Jack\' is not registered in your List of Payees\" is displayed               Time elapsed: 0.014 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Transfer failed!! 'Jack' is not registered in your List of Payees]>
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at fundtransfer.test.FundTransferStepDefs.Ensure_a_transaction_failure_message(FundTransferStepDefs.java:50)
+	at ?.Then ensure a transaction failure message "Transfer failed!! 'Jack' is not registered in your List of Payees" is displayed(fundtransfer/test/fundtransfer.feature:18)
+Scenario: Invalid Payee          Time elapsed: 0.014 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Transfer failed!! 'Jack' is not registered in your List of Payees]>
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at fundtransfer.test.FundTransferStepDefs.Ensure_a_transaction_failure_message(FundTransferStepDefs.java:50)
+	at ?.Then ensure a transaction failure message "Transfer failed!! 'Jack' is not registered in your List of Payees" is displayed(fundtransfer/test/fundtransfer.feature:18)
